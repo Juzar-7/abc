@@ -1,0 +1,590 @@
+@media (min-width: 1090px)
+{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: rgb(5, 5, 51); */
+    /* background-image: url(https://wallpapertag.com/wallpaper/full/6/4/2/114660-large-triangle-background-1920x1080-windows.jpg); */
+    background-image: url(https://wallpapertag.com/wallpaper/full/5/0/6/124039-top-geometric-backgrounds-1920x1080.jpg);
+    /* background-image: url(https://getwallpapers.com/wallpaper/full/1/5/1/629812.jpg); */
+    /* background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39c34fec-6673-41bf-9a08-c340e74e640b/dajawin-e4ee1e41-28ab-43fe-b6ca-487fb9e60330.png/v1/fill/w_1600,h_900,q_75,strp/wallpaper_geometric_color_37_2k_uhd_by_airworldking-dajawin.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zOWMzNGZlYy02NjczLTQxYmYtOWEwOC1jMzQwZTc0ZTY0MGIvZGFqYXdpbi1lNGVlMWU0MS0yOGFiLTQzZmUtYjZjYS00ODdmYjllNjAzMzAucG5nIiwid2lkdGgiOiI8PTE2MDAiLCJoZWlnaHQiOiI8PTkwMCJ9XV19.ogXl7RNYitesfNYqLs3gXqjn8fEK3-Y8tSZY6Y9MvrM); */
+    background-attachment: fixed;
+    /* background-image: url(https://free4kwallpapers.com/uploads/originals/2017/11/16/3d-triangles-dark-wallpaper.jpg); */
+    /* background-image: url(polygon_triangles_geometric_128478_3840x2160\ -\ Copy.jpg); */
+    /* background-image: url(https://www.wallpaperflare.com/static/578/493/137/geometry-poly-vector-dots-wallpaper.jpg); */
+    
+    
+    
+
+}
+.logo{
+    width: 2.5vh;
+    margin: 0 7px 0;
+    opacity: 0.2;
+    transition: 0.7s;
+    
+    
+    
+    
+}
+.icon{
+    position: absolute;
+    top: 39vh;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    
+}
+.cards{
+    padding: 1.7vh;
+}
+.jzr{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 10px;
+   
+}
+.container{
+    position: absolute;
+    top: 43vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .cards{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 40vh;
+    margin: 10vh;
+    background: rgba(255, 255, 255, 0.062);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 7px;
+}
+.content{
+    align-items: center;
+}
+.names{
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Bungee Hairline', cursive; */
+    /* font-family: 'Aldrich', sans-serif; */
+    /* font-family: 'Geostar', cursive; */
+    letter-spacing: 4px;
+    /* text-shadow: 
+    0 0 2px #ebebf7, 
+    0 0 10px #d1cae9,       
+    0 0 500px #ded9ec;  */
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+   
+}
+
+.container2{
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .cards{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 40vh;
+    margin: 10vh;
+    background: rgba(255, 255, 255,0.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 7px;
+}
+.container3{
+    position: absolute;
+    top: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3 .cards{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 40vh;
+    margin: 10vh;
+    background: rgba(255, 255, 255,0.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 7px;
+}
+.container4{
+    position: absolute;
+    top: -6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4 .cards{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 40vh;
+    margin: 10vh;
+    background: rgba(255, 255, 255,0.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 7px;
+}
+.container5{
+    position: absolute;
+    top: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5 .cards{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 40vh;
+    margin: 10vh;
+    background: rgba(255, 255, 255,0.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 7px;
+}
+.container6{
+    position: absolute;
+    top: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container6 .cards{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 40vh;
+    margin: 10vh;
+    background: rgba(255, 255, 255,0.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 7px;
+}
+.container .cards:hover{
+    
+    background: rgba(255, 255, 255,0.1);
+    
+    backdrop-filter: blur(20px);
+    border-radius: 0px;
+    
+}
+.container2 .cards:hover{
+   
+    background: rgba(255, 255, 255,0.1);
+    
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+}
+.container3 .cards:hover{
+ 
+    background: rgba(255, 255, 255,0.1);
+    
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+}
+.container4 .cards:hover{
+   
+    background: rgba(255, 255, 255,0.1);
+    
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+}
+.container5 .cards:hover{
+   
+    background: rgba(255, 255, 255,0.1);
+    
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+    
+}
+.container6 .cards:hover{
+    
+    background: rgba(255, 255, 255,0.1);
+    
+    backdrop-filter: blur(20px);
+    border-radius: 2px;
+    
+}
+.container .cards:hover .logo{
+    
+    opacity: 1;
+    margin: 0 10px 0;
+    width: 4.1vh;
+    transform: translateY(-15px) ;
+    
+}
+.container2 .cards:hover .logo{
+    
+    opacity: 1;
+    margin: 0 10px 0;
+    width: 4.1vh;
+    transform: translateY(-15px) ;
+    
+}
+.container3 .cards:hover .logo{
+    
+    opacity: 1;
+    margin: 0 10px 0;
+    width: 4.1vh;
+    transform: translateY(-15px) ;
+    
+}
+.container4 .cards:hover .logo{
+    
+    opacity: 1;
+    margin: 0 10px 0;
+    width: 4.1vh;
+    transform: translateY(-15px) ;
+    
+}
+.container5 .cards:hover .logo{
+    
+    opacity: 1;
+    margin: 0 10px 0;
+    width: 4.1vh;
+    transform: translateY(-15px) ;
+    
+}
+.container6 .cards:hover .logo{
+    
+    opacity: 1;
+    margin: 0 10px 0;
+    width: 4.1vh;
+    transform: translateY(-15px) ;
+    
+}
+}
+@media(max-width: 1090px)
+{
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: rgb(5, 5, 51); */
+        /* background-image: url(https://wallpapertag.com/wallpaper/full/6/4/2/114660-large-triangle-background-1920x1080-windows.jpg); */
+        background-image: url(https://wallpapertag.com/wallpaper/full/5/0/6/124039-top-geometric-backgrounds-1920x1080.jpg);
+        /* background-image: url(https://getwallpapers.com/wallpaper/full/1/5/1/629812.jpg); */
+        /* background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39c34fec-6673-41bf-9a08-c340e74e640b/dajawin-e4ee1e41-28ab-43fe-b6ca-487fb9e60330.png/v1/fill/w_1600,h_900,q_75,strp/wallpaper_geometric_color_37_2k_uhd_by_airworldking-dajawin.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zOWMzNGZlYy02NjczLTQxYmYtOWEwOC1jMzQwZTc0ZTY0MGIvZGFqYXdpbi1lNGVlMWU0MS0yOGFiLTQzZmUtYjZjYS00ODdmYjllNjAzMzAucG5nIiwid2lkdGgiOiI8PTE2MDAiLCJoZWlnaHQiOiI8PTkwMCJ9XV19.ogXl7RNYitesfNYqLs3gXqjn8fEK3-Y8tSZY6Y9MvrM); */
+        background-attachment: fixed;
+        /* background-image: url(https://free4kwallpapers.com/uploads/originals/2017/11/16/3d-triangles-dark-wallpaper.jpg); */
+        /* background-image: url(polygon_triangles_geometric_128478_3840x2160\ -\ Copy.jpg); */
+        /* background-image: url(https://www.wallpaperflare.com/static/578/493/137/geometry-poly-vector-dots-wallpaper.jpg); */
+        
+        
+        
+    
+    }
+    .logo{
+        width:1.5vh;
+        /* margin: 0 2px 0;
+        opacity: 0.2;
+        transition: 0.7s; */
+
+        
+
+        opacity: 1;
+        margin: 8px 16px 0;
+        width: 1.3vh;
+        transform: translateY(-2px) ;
+        
+        
+        
+        
+    }
+    .icon{
+        position: absolute;
+        top: 16.3vh;
+        display: flex;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .bg{
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        
+    }
+    .cards{
+        padding: 3px;
+    }
+    .jzr{
+        width: 14vh;
+        height: 14vh;
+        border-radius: 10px;
+       
+    }
+    .container{
+        position: absolute;
+        top: 27vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .cards{
+        
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 14vh;
+        height: 18vh;
+        margin: 0px 10px 0px;
+        background: rgba(255, 255, 255, 0.062);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(4px);
+        border-radius: 7px;
+        
+    }
+    .content{
+        align-items: center;
+    }
+    .names{
+        align-items: center;
+        font-family: 'Orbitron', sans-serif;
+        /* font-family: 'Bungee Hairline', cursive; */
+        /* font-family: 'Aldrich', sans-serif; */
+        /* font-family: 'Geostar', cursive; */
+        letter-spacing: 4px;
+        /* text-shadow: 
+        0 0 2px #ebebf7, 
+        0 0 10px #d1cae9,       
+        0 0 500px #ded9ec;  */
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 13.1vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bold;
+        font-size: 24px;
+       
+    }
+    
+    .container2{
+        position: absolute;
+        top: 49vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2 .cards{
+        
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 14vh;
+        height: 18vh;
+        margin: 0px 10px 0px;
+        background: rgba(255, 255, 255,0.03);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 7px;
+    }
+    .container3{
+        position: absolute;
+        top: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3 .cards{
+        
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 14vh;
+        height: 18vh;
+        margin: 0px 10px 0px;
+        background: rgba(255, 255, 255,0.03);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 7px;
+    }
+    .container4{
+        position: absolute;
+        top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container4 .cards{
+        
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 14vh;
+        height: 18vh;
+        margin: 0px 10px 0px;
+        background: rgba(255, 255, 255,0.03);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 7px;
+    }
+    .container5{
+        position: absolute;
+        top: 44vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container5 .cards{
+        
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 14vh;
+        height: 18vh;
+        margin: 0px 10px 0px;
+        background: rgba(255, 255, 255,0.03);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 7px;
+    }
+    .container6{
+        position: absolute;
+        top: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container6 .cards{
+        
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 14vh;
+        height: 18vh;
+        margin: 0px 10px 0px;
+        background: rgba(255, 255, 255,0.03);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 7px;
+    }
+    .container .cards:hover{
+        
+        background: rgba(255, 255, 255,0.1);
+        
+        backdrop-filter: blur(20px);
+        border-radius: 0px;
+        
+    }
+    .container2 .cards:hover{
+       
+        background: rgba(255, 255, 255,0.1);
+        
+        backdrop-filter: blur(20px);
+        border-radius: 2px;
+    }
+    .container3 .cards:hover{
+     
+        background: rgba(255, 255, 255,0.1);
+        
+        backdrop-filter: blur(20px);
+        border-radius: 2px;
+    }
+    .container4 .cards:hover{
+       
+        background: rgba(255, 255, 255,0.1);
+        
+        backdrop-filter: blur(20px);
+        border-radius: 2px;
+    }
+    .container5 .cards:hover{
+       
+        background: rgba(255, 255, 255,0.1);
+        
+        backdrop-filter: blur(20px);
+        border-radius: 2px;
+        
+    }
+    .container6 .cards:hover{
+        
+        background: rgba(255, 255, 255,0.1);
+        
+        backdrop-filter: blur(20px);
+        border-radius: 2px;
+        
+    }
+    /* .container .cards:hover .logo{
+        
+        opacity: 1;
+        margin: 0 3px 0;
+        width: 1.5vh;
+        transform: translateY(-2px) ;
+        
+    }
+    .container2 .cards:hover .logo{
+        
+        opacity: 1;
+        margin: 0 3px 0;
+        width: 1.5vh;
+        transform: translateY(-2px) ;
+        
+    }
+    .container3 .cards:hover .logo{
+        
+        opacity: 1;
+        margin: 0 3px 0;
+        width: 1.5vh;
+        transform: translateY(-2px) ;
+        
+    }
+    .container4 .cards:hover .logo{
+        
+        opacity: 1;
+        margin: 0 3px 0;
+        width: 1.5vh;
+        transform: translateY(-2px) ;
+        
+    }
+    .container5 .cards:hover .logo{
+        
+        opacity: 1;
+        margin: 0 3px 0;
+        width: 1.5vh;
+        transform: translateY(-2px) ;
+        
+    }
+    .container6 .cards:hover .logo{
+        
+        opacity: 1;
+        margin: 0 10px 0;
+        width: 4.1vh;
+        transform: translateY(-15px) ;
+        
+    } */
+
+}
